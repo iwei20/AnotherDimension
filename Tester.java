@@ -21,5 +21,7 @@ public class Tester {
         System.out.println(ArrayOps.sum(empty2D));
         System.out.println(ArrayOps.sum(emptyRows2D));
 
+        System.out.println(Arrays.toString(ArrayOps.sumRows(empty2D)));
+        System.out.println(Arrays.toString(ArrayOps.sumRows(emptyRows2D)));
     }
 }
