@@ -33,4 +33,8 @@ public class ArrayOps {
         return result;
     }
 
+    public static int sum(int[][] arr) {
+        return sum(sumRows(arr));
+    }
+
 }
