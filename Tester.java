@@ -13,5 +13,13 @@ public class Tester {
         System.out.println(Arrays.toString(ArrayOps.sumRows(A)));
         System.out.println(Arrays.toString(ArrayOps.largestInRows(A)));
         System.out.println(ArrayOps.sum(A));
+
+        int[] empty = {};
+        int[][] empty2D = {};
+        int[][] emptyRows2D = {{}, {}, {}};
+        System.out.println(ArrayOps.sum(empty));
+        System.out.println(ArrayOps.sum(empty2D));
+        System.out.println(ArrayOps.sum(emptyRows2D));
+
     }
 }
