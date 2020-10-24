@@ -29,6 +29,10 @@ public class Tester {
         int[][] rowNotCol = { {  1,  2, 3, 4 },
                         {  2, 3,  4,  1 },
                         { 3, 4,  1, 2 } }; 
+        int[][] colNotRow = { {  1,  1, 1 },
+                            {  2, 2, 2 },
+                            { 3,  3, 3 } };  
         System.out.println(ArrayOps.isRowMagic(rowNotCol));
+        System.out.println(ArrayOps.isColMagic(colNotRow));
     }
 }
