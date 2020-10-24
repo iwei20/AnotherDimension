@@ -49,4 +49,13 @@ public class ArrayOps {
         return result;
     }
 
+    public static boolean isRowMagic(int[][] matrix) {
+        int[] toCompare = sumRows(matrix);
+        for(int i = 0; i < toCompare.length - 1; ++i) {
+            if(toCompare[i] != toCompare[i + 1]) {
+                return false;
+            }
+        }
+        return true;
+    }
 }
